@@ -2,34 +2,30 @@
 ansible_ssh_user=root
 
 [bastion]
-snelnxb646.internal.timbrasil.com.br
+srv001.local
 
 [glusterfs]
-snelnxb653.internal.timbrasil.com.br
-snelnxb654.internal.timbrasil.com.br
-snelnxb655.internal.timbrasil.com.br
-snelnxb656.internal.timbrasil.com.br
+srv009.local
+srv010.local
+srv011.local
+srv012.local
 
 [masters]
-snelnxb646.internal.timbrasil.com.br
-snelnxb647.internal.timbrasil.com.br
-snelnxb648.internal.timbrasil.com.br
+srv001.local
+srv002.local
+srv003.local
 
 [etcds]
-snelnxb646.internal.timbrasil.com.br
-snelnxb647.internal.timbrasil.com.br
-snelnxb648.internal.timbrasil.com.br
+srv001.local
+srv002.local
+srv003.local
 
 [nodes]
-snelnxb657.internal.timbrasil.com.br
-snelnxb658.internal.timbrasil.com.br
-snelnxb659.internal.timbrasil.com.br
-snelnxb661.internal.timbrasil.com.br
-snelnxb662.internal.timbrasil.com.br
-snelnxb663.internal.timbrasil.com.br
-snelnxb664.internal.timbrasil.com.br
+srv004.local
+srv005.local
+srv006.local
 
 [infras]
-snelnxb649.internal.timbrasil.com.br
-snelnxb650.internal.timbrasil.com.br
-snelnxb651.internal.timbrasil.com.br
+srv007.local
+srv008.local
+srv009.local
