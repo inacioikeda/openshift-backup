@@ -4,9 +4,9 @@
 
 ## Authentication variables for accessing OpenShift cluster or
 ## Gluster nodes depending on deployment mode
-OCADDRESS: "https://openshiftdev.internal.timbrasil.com.br:8443"
+OCADDRESS: "https://openshiftdev.local:8443"
 OCUSER: "openshift"
-OCPASS: "Timbrasil!18"
+OCPASS: "OCPPW123"
 OCPROJECT: "glusterfs" ## OpenShift project where gluster cluster lives
 
 ## Any of the Gluster servers from RHOCS converged cluster
@@ -27,5 +27,5 @@ PARENTMOUNT: "{{ BKP_BASE }}/snapshot/mnt"
 ## Heketi Route and Credentials
 USERHEKETI: "admin" 
 SECRETHEKETI: "jDt3rbLITw7f8jw1/BKe27tbQJOvuRz5MdqMPpRjtEs=" 
-HEKETI_CLI_SERVER: http://heketi-storage-glusterfs.ocpdev.internal.timbrasil.com.br 
+HEKETI_CLI_SERVER: http://heketi-storage-glusterfs.ocpdev.local
 
