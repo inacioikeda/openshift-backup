@@ -2,9 +2,9 @@ BACKUPDIR: "/opt/backup/{{ ansible_hostname }}/BKP_ETCDS_{{ ansible_date_time.da
 ETCD_POD_MANIFEST: /etc/origin/node/pods/etcd.yaml
 
 ## Authentication variables for accessing OpenShift cluster or
-OCADDRESS: "https://openshiftdev.internal.timbrasil.com.br:8443"
+OCADDRESS: "https://openshiftdev.local:8443"
 OCUSER: "openshift"
-OCPASS: "Timbrasil!18"
+OCPASS: "PWOCP123"
 OCPROJECT: "kube-system"
 
 CERT: "/etc/etcd/peer.crt"
